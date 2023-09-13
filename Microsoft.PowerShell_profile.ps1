@@ -31,3 +31,6 @@ function CD-Into-Repo {
 }
 New-Alias -force cdr CD-Into-Repo
 
+# use ctrl+f to apply one word of PSReadLine intellisense
+Set-PSReadLineKeyHandler -Chord "Ctrl+f" -Function ForwardWord
+
